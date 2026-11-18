@@ -1,0 +1,41 @@
+{
+  "name": "glingo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Spotlight 8: English vocabulary practice with a Russian interface",
+  "repository": "https://github.com/Bakster01/GLingo",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.5.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "1.73.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "autoprefixer": "10.6.1",
+    "postcss": "8.5.32",
+    "tailwindcss": "3.4.19",
+    "tailwindcss-animate": "1.0.7",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vite": "8.3.8"
+  }
+}
